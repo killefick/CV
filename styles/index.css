@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Maven Pro", sans-serif;
+  background-image: url(/pictures/jose-fontano-TdPQp3fjzOw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 #cv-background {
@@ -53,4 +57,10 @@ a[href^="mailto"]:hover:before {
 #picture {
   border-radius: 50%;
   width: 70%;
+}
+
+#credits {
+  font-size: xx-small;
+  text-align: end;
+  color: whitesmoke;
 }
