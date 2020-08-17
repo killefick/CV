@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  background-color: #e6e6e6;
+  margin: 0;
+  padding: 0;
+  font-family: "Maven Pro", sans-serif;
+}
+
+#cv-background {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 40vw;
+  height: 50vw;
+  margin: auto;
+  margin-top: 5vw;
+  box-shadow: 0px 11px 65px -9px rgba(0, 0, 0, 0.75);
+}
+
+#cv-header {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  width: 95%;
+  height: 20%;
+  margin-top: 2vw;
+  background-color: lightblue;
+  /* padding: 1vw; */
+}
+
+#cv-header-text {
+  width: 55%;
+  border: red solid 1px;
+}
+
+#cv-header-text-head {
+  font-size: larger;
+}
+
+#cv-header-text-body {
+  font-size: x-small;
+}
+
+#cv-header-picture {
+  display: flex;
+  justify-content: flex-end;
+  border: blue solid 1px;
+  width: 40%;
+}
+
+#picture {
+  border-radius: 50%;
+  width: 80%;
+}
