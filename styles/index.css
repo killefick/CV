@@ -10,26 +10,42 @@ body {
   background-size: 100% 100%;
 }
 
+.subhead-text {
+  font-size: small;
+  font-weight: 700;
+}
+
+.body-text {
+  font-size: x-small;
+}
+
+ul {
+  list-style: none;
+}
+
 #cv-background {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: white;
   width: 40vw;
   height: 50vw;
   margin: auto;
   margin-top: 5vw;
+  padding: 2vw;
   box-shadow: 0px 11px 65px -9px rgba(0, 0, 0, 0.75);
 }
 
-#cv-header {
+#cv-header,
+#about-container, 
+#experience-container{
   display: flex;
   flex-direction: row;
-  flex-flow: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   height: 20%;
-  margin-top: 2vw;
 }
 
 #cv-header-text {
@@ -57,6 +73,18 @@ a[href^="mailto"]:hover:before {
 #picture {
   border-radius: 50%;
   width: 70%;
+}
+
+#about-wrapper,
+#techstack-wrapper,
+#work-wrapper,
+# {
+  width: 45%;
+  margin-top: 5vw;
+}
+
+#techstack-text {
+  text-align: end;
 }
 
 #credits {
