@@ -22,16 +22,14 @@ body {
   flex-direction: row;
   flex-flow: wrap;
   justify-content: space-between;
-  width: 95%;
+  align-items: center;
+  width: 90%;
   height: 20%;
   margin-top: 2vw;
-  background-color: lightblue;
-  /* padding: 1vw; */
 }
 
 #cv-header-text {
   width: 55%;
-  border: red solid 1px;
 }
 
 #cv-header-text-head {
@@ -42,14 +40,17 @@ body {
   font-size: x-small;
 }
 
+a[href^="mailto"]:hover:before {
+  content: "mailto:" attr(title);
+}
+
 #cv-header-picture {
   display: flex;
   justify-content: flex-end;
-  border: blue solid 1px;
-  width: 40%;
+  width: 45%;
 }
 
 #picture {
   border-radius: 50%;
-  width: 80%;
+  width: 70%;
 }
