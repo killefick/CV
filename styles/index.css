@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: acumin-pro, sans-serif;
-  background-image: url(/pictures/andrei-slobtsov-hspT8tr8kcw-unsplash.jpg);
+  background-image: url(/pictures/andrei-slobtsov-hspT8tr8kcw-unsplash-v2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -102,9 +102,7 @@ a[href^="mailto"]:hover:before {
   .container,
   .work-item {
     display: block;
-  
     width: 90%;
-    /* border: black solid 1px; */
     margin-top: 2vw;
   }
 
