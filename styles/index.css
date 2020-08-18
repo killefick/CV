@@ -97,3 +97,9 @@ a[href^="mailto"]:hover:before {
   text-align: end;
   color: whitesmoke;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
