@@ -9,6 +9,19 @@ body {
   background-size: 100%;
 }
 
+.top-container,
+.container,
+.work-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  /* border: black solid 1px; */
+  margin-top: 2vw;
+}
+
 .subhead-text {
   font-size: x-large;
   font-weight: 800;
@@ -20,18 +33,6 @@ body {
 }
 .body-text-semibold {
   font-weight: 600;
-}
-
-.container,
-.work-item {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 90%;
-  /* border: black solid 1px; */
-  margin-top: 2vw;
 }
 
 .work-item {
@@ -98,10 +99,17 @@ a[href^="mailto"]:hover:before {
 }
 
 @media screen and (max-width: 992px) {
-  .subhead-text {
-    color:red;
-    font-size: x-large;
-    font-weight: 800;
-    margin-top: 5vw;
+  .container,
+  .work-item {
+    display: block;
+  
+    width: 90%;
+    /* border: black solid 1px; */
+    margin-top: 2vw;
+  }
+
+  #cv-paper {
+    background-color: white;
+    width: 90vw;
   }
 }
