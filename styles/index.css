@@ -19,6 +19,15 @@ body {
   font-weight: 400;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  border: black solid 1px;
+  margin-top: 2vw;
+}
 
 #cv-paper {
   display: flex;
@@ -32,23 +41,6 @@ body {
   padding: 2vw;
   box-shadow: 0px 11px 65px -9px rgba(0, 0, 0, 0.75);
 }
-
-#cv-header-container,
-#container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  height: 20%;
-  /* border: black solid 1px; */
-}
-#container
-{
-  margin-top: 10vw;
-}
-
 
 #cv-header-text {
   width: 55%;
@@ -72,8 +64,7 @@ a[href^="mailto"]:hover:before {
   height: max-content;
 }
 
-#wrapper
-{
+#wrapper {
   width: 45%;
 }
 
