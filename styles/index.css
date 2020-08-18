@@ -44,10 +44,6 @@ body {
   width: 45%;
   /* border: blue solid 1px; */
 }
-.wrapper {
-  width: 45%;
-  /* border: blue solid 1px; */
-}
 
 #cv-paper {
   display: flex;
@@ -109,5 +105,10 @@ a[href^="mailto"]:hover:before {
   #cv-paper {
     background-color: white;
     width: 90vw;
+  }
+
+  .wrapper {
+    width: 100%;
+    /* border: blue solid 1px; */
   }
 }
