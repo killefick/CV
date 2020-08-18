@@ -102,6 +102,10 @@ a[href^="mailto"]:hover:before {
     margin-top: 2vw;
   }
 
+  #picture {
+    margin-top: 5vw;
+  }
+
   #cv-paper {
     background-color: white;
     width: 90vw;
