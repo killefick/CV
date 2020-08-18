@@ -111,4 +111,10 @@ a[href^="mailto"]:hover:before {
     width: 100%;
     /* border: blue solid 1px; */
   }
+
+  .subhead-text {
+    font-size: large;
+    font-weight: 800;
+    margin-top: 5vw;
+  }
 }
