@@ -19,14 +19,26 @@ body {
   font-weight: 400;
 }
 
-.container {
+.container,
+.work-item {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   width: 90%;
-  border: black solid 1px;
+  /* border: black solid 1px; */
   margin-top: 2vw;
+}
+
+.work-item {
+  width: 100%;
+  /* border: red solid 1px; */
+}
+
+.wrapper {
+  width: 45%;
+  /* border: blue solid 1px; */
 }
 
 #cv-paper {
@@ -35,7 +47,7 @@ body {
   flex-direction: column;
   background-color: white;
   width: 60vw;
-  height: 50vw;
+  height: 100vw;
   margin: auto;
   margin-top: 5vw;
   padding: 2vw;
@@ -48,6 +60,9 @@ body {
 
 #cv-header-text-head {
   font-size: xx-large;
+}
+#github-logo {
+  width: 70px;
 }
 
 a[href^="mailto"]:hover:before {
@@ -62,10 +77,6 @@ a[href^="mailto"]:hover:before {
 #picture {
   border-radius: 50%;
   height: max-content;
-}
-
-#wrapper {
-  width: 45%;
 }
 
 #techstack-text {
