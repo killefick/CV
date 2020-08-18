@@ -1,6 +1,5 @@
 body {
   box-sizing: border-box;
-  background-color: #e6e6e6;
   margin: 0;
   padding: 0;
   font-family: acumin-pro, sans-serif;
@@ -99,7 +98,10 @@ a[href^="mailto"]:hover:before {
 }
 
 @media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
+  .subhead-text {
+    color:red;
+    font-size: x-large;
+    font-weight: 800;
+    margin-top: 5vw;
   }
 }
