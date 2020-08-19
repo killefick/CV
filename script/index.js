@@ -11,7 +11,17 @@ fetch("https://api.github.com/users/killefick/repos")
     json.forEach((repo) => {
       githubrepos.insertAdjacentHTML(
         "beforeend",
-        '<a href="' + repo.html_url + '" target=blank>' + repo.name + "</a>" + "</br>"
+        "<div class='repo-container'>" +
+          "<a href=" +
+          repo.html_url +
+          " class='expand' target=blank>" +
+          "<div>" +
+          repo.name +
+          "</div>" +
+          "</a>" +
+          "</br>" +
+          "</div>"
       );
     });
   });
+// '<a href="' + repo.html_url + '" target=blank>' + repo.name + "</a>" + "</br>"
