@@ -3,10 +3,10 @@ fetch("https://api.github.com/users/killefick/repos")
     return response.json();
   })
   .then(function (json) {
-    console.log("github api", json);
+    // console.log("github api", json);
 
     var githubrepos = document.getElementById("githubrepos");
-    console.log(githubrepos);
+    // console.log(githubrepos);
 
     json.forEach((repo) => {
       githubrepos.insertAdjacentHTML(
@@ -24,4 +24,3 @@ fetch("https://api.github.com/users/killefick/repos")
       );
     });
   });
-// '<a href="' + repo.html_url + '" target=blank>' + repo.name + "</a>" + "</br>"
