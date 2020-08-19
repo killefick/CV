@@ -71,8 +71,15 @@ a {
 #cv-header-text-head {
   font-size: xx-large;
 }
-#github-logo {
-  width: 70px;
+
+.logo {
+  width: 5vw;
+  margin-top: 0.5vw;
+}
+
+.logo:hover {
+  width: 8vw;
+  margin-top: 0.5vw;
 }
 
 a[href^="mailto"]:hover:before {
