@@ -6,7 +6,7 @@ body {
   background-image: url(/pictures/annie-spratt-i5MW_nrHi1k-unsplash-NA.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
 }
 
 a {
@@ -27,7 +27,6 @@ a[href^="mailto"]:hover:before {
   justify-content: space-between;
   align-items: flex-start;
   width: 90%;
-  /* border: black solid 1px; */
   margin-top: 2vw;
 }
 
@@ -46,12 +45,10 @@ a[href^="mailto"]:hover:before {
 
 .work-item {
   width: 100%;
-  /* border: red solid 1px; */
 }
 
 .wrapper {
   width: 45%;
-  /* border: blue solid 1px; */
 }
 
 .logo {
@@ -104,7 +101,7 @@ a[href^="mailto"]:hover:before {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: white;
+  background-color: rgba(250, 250, 250, 1);
   width: 60vw;
   height: 100%;
   margin: auto;
@@ -154,7 +151,7 @@ a[href^="mailto"]:hover:before {
     width: 90%;
     margin-top: 2vw;
   }
- 
+
   .logo {
     width: 8vw;
     margin-top: 0.5vw;
@@ -184,7 +181,6 @@ a[href^="mailto"]:hover:before {
   }
 }
 @media screen and (max-width: 850px) {
-
   #cv-paper {
     width: 80vw;
   }
