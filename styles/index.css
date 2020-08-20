@@ -224,3 +224,23 @@ a[href^="mailto"]:hover:before {
     font-size: small;
   }
 }
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 18vw;
+    margin-top: 0.5vw;
+  }
+
+  .logo:hover {
+    width: 24vw;
+    margin-top: 0.5vw;
+  }
+
+  .repo-container{
+    width: 100vw;
+    height: 15vw;
+  }
+
+  .repotext{
+    font-size: small;
+  }
+}
