@@ -14,7 +14,7 @@ fetch("https://api.github.com/users/killefick/repos")
         "<div class='repo-container'>" +
           "<a href=" +
           repo.html_url +
-          " class='expand' target=blank>" +
+          " class='expand repotext' target=blank>" +
           "<div>" +
           repo.name +
           "</div>" +

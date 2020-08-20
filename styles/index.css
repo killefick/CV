@@ -147,12 +147,22 @@ a[href^="mailto"]:hover:before {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1366px) {
   .container,
   .work-item {
     display: block;
     width: 90%;
     margin-top: 2vw;
+  }
+
+  .logo {
+    width: 8vw;
+    margin-top: 0.5vw;
+  }
+
+  .logo:hover {
+    width: 12vw;
+    margin-top: 0.5vw;
   }
 
   #picture {
@@ -161,12 +171,56 @@ a[href^="mailto"]:hover:before {
 
   .wrapper {
     width: 100%;
-    /* border: blue solid 1px; */
   }
 
   .subhead-text {
     font-size: large;
     font-weight: 800;
     margin-top: 5vw;
+  }
+}
+@media screen and (max-width: 801px) {
+
+  #cv-paper {
+    width: 80vw;
+    height: 100%;
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 2vw;
+    box-shadow: 0px 11px 50px -9px rgba(0, 0, 0, 0.75);
+  }
+
+  .logo {
+    width: 10vw;
+    margin-top: 0.5vw;
+  }
+
+  .logo:hover {
+    width: 14vw;
+    margin-top: 0.5vw;
+  }
+
+  #picture {
+    margin-top: 5vw;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .subhead-text {
+    font-size: large;
+    font-weight: 800;
+    margin-top: 5vw;
+  }
+
+  .repo-container{
+    width: 11vw;
+    height: 5vw;
+  }
+
+  .repotext{
+    font-size: small;
   }
 }
