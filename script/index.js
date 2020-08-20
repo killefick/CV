@@ -11,10 +11,10 @@ fetch("https://api.github.com/users/killefick/repos")
     json.forEach((repo) => {
       githubrepos.insertAdjacentHTML(
         "beforeend",
-        "<div class='repo-container'>" +
+        "<div class='repo-container hvr-pop'>" +
           "<a href=" +
           repo.html_url +
-          " class='expand repotext' target=blank>" +
+          " class='repotext' target=blank>" +
           "<div>" +
           repo.name +
           "</div>" +

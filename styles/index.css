@@ -61,6 +61,39 @@ a[href^="mailto"]:hover:before {
   margin-top: 0.5vw;
 }
 
+/* Pop */
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pop:hover,
+.hvr-pop:focus,
+.hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 .repo-container {
   display: flex;
   justify-content: center;
@@ -75,26 +108,16 @@ a[href^="mailto"]:hover:before {
   background-image: linear-gradient(
     to bottom right,
     white,
-    rgba(245, 245, 245, 1)
+    rgba(235, 235, 235, 1)
   );
 }
+.repo-container:hover {
 
-.expand {
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-}
-.expand:after {
-  display: block;
-  content: "";
-  border-bottom: solid 3px #000;
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
-  transform-origin: 100% 50%;
-}
-.expand:hover:after {
-  transform: scaleX(1);
-  transform-origin: 0 50%;
+  background-image: linear-gradient(
+    to bottom right,
+    white,
+    rgba(245, 245, 245, 1)
+  );
 }
 
 #cv-paper {
